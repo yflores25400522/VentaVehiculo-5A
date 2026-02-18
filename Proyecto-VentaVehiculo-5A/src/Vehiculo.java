@@ -18,6 +18,30 @@ public class Vehiculo {
     this.Precio = Precio;
     
     }
+
+    public String getMarca() {
+        return Marca;
+    }
+
+    public void setMarca(String Marca) {
+        this.Marca = Marca;
+    }
+
+    public double getPrecio() {
+        return Precio;
+    }
+
+    public void setPrecio(double Precio) {
+        this.Precio = Precio;
+    }
+
+    public String getMotor() {
+        return motor;
+    }
+
+    public void setMotor(String motor) {
+        this.motor = motor;
+    }
     @Override
   public String toString(){
   return "La marca del Vehiculo es" + this.Marca + "\n" + 
